@@ -1,0 +1,46 @@
+body {
+
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url("https://static1.squarespace.com/static/54ad4ce9e4b034981b683fa5/t/54aee00fe4b0f7fcad0f7a8d/1420746775194/Chalkboard+-+Blank.jpg?format=1500w");
+}
+
+
+.flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+
+ .flex-item-1 {
+    width: 500px;
+    height: 100px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .flex-item-2 {
+    width: 400px;
+    height: 800px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .flex-item-3 {
+    width: 500px;
+    height: 250px;
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}

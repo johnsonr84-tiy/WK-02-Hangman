@@ -1,5 +1,5 @@
 
-
+/*
 
 
     <script>
@@ -8,4 +8,4 @@
         document.querySelector('p#show').innerText = userInput
       }
       document.querySelector('input#check').onclick = showInput
-    </script>
+    </script>*/

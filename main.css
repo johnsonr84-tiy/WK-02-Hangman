@@ -1,46 +1,191 @@
 body {
-
+  margin: 0;
+  font-family: Arial;
+  background-color: lightgrey;
+  height: auto;
+  width: auto;
+  background-image: image(./images/chalkboard.jpg);
 }
 
-.flex-container {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-image: url("https://static1.squarespace.com/static/54ad4ce9e4b034981b683fa5/t/54aee00fe4b0f7fcad0f7a8d/1420746775194/Chalkboard+-+Blank.jpg?format=1500w");
+.main_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;;
+  align-items: center;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  height: 90px;
+  width: 600px;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  height: 24px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
 }
 
 
-.flex-items-default {
-    width: 300px;
-    height: 250px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 0;
+.btn {
+  background: grey;
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
 }
 
- .flex-item-1 {
-    width: 500px;
-    height: 100px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
+.btn:hover {
+  background: green;
+  text-decoration: none;
 }
 
- .flex-item-2 {
-    width: 400px;
-    height: 800px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
+.reset {
+    margin: 15px;
+    background: maroon;
+    border-color: white;
+    border-radius: 10px;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
 }
 
- .flex-item-3 {
-    width: 500px;
-    height: 250px;
-    flex-grow: <property unused>
-    flex-shrink: <property unused>
-    flex-basis: <property unused>
+.reset:hover {
+  background: blue;
+  text-decoration: none;
+}
+
+.tracker {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.guessedLetters {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.feedback {
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.guessesRemaining {
+  font-size: 20px;
+  margin: 10px 0;
+  color: darkred;
+}
+
+
+.body-part {
+  width: 400px;
+  height: 400px;
+  positon: absolute;
+  color: black;
+}
+
+.hangman-body div {
+  visibility: hidden;
+}
+
+#head {
+  position: relative;
+  border-radius: 50%;
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  left: 220px;
+  margin: 0;
+}
+
+#neck {
+  position: relative;
+  background-color: black;
+  width: 30px;
+  height: 40px;
+  left: 245px;
+  margin: 0;
+  top: -15px;
+}
+
+
+#torso {
+  position: relative;
+  width: 90px;
+  height: 160px;
+  top: -15px;
+  left: 215px;
+  margin: 0;
+  background-color: black;
+}
+
+#arm1 {
+  position: relative;
+  width: 40px;
+  height: 120px;
+  background-color: black;
+  margin: 0;
+  top: -185px;
+  left: 185px;
+  transform: rotate(30deg);
+  border-top-left-radius: 20px;
+}
+
+#arm2 {
+  position: relative;
+  width: 40px;
+  height: 120px;
+  background-color: black;
+  margin: 0;
+  top: -305px;
+  left: 295px;
+  transform: scaleX(-1) rotate(30deg);
+  border-top-left-radius: 20px;
+}
+
+#leg1 {
+  position: relative;
+  width: 40px;
+  height: 160px;
+  background-color: #036;
+  top: -255px;
+  left: 215px;
+  margin: 0;
+}
+
+#leg2 {
+  position: relative;
+  width: 40px;
+  height: 160px;
+  background-color: black;
+  top: -415px;
+  left: 265px;
+  margin: 0;
+}
+
+#hang {
+  position: relative;
+  left: 220px;
+  top: -835px;
 }

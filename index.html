@@ -6,15 +6,15 @@
     <link href="./main.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-
-    <div class="heading">
-      <h1>The Uterly Amazing Hangman Game</h1>
-      <h3 class="message">Go on and select a letter!</h3>
-    </div>
+    <div class="main_cont">
+      <div class="sub_cont">
+      <h1>The Uterly Amazing Hangman Game!</h1>
+      </div>
+      <h3 class="message">Type a letter in the box below!👇🏼</h3>
 
     <div class="feedback">
       <form class="guess">
-        <input type="text" name="guess" placeholder="?" maxlength="1">
+        <input type="text" name="guess" placeholder="_" maxlength="1">
         <button id="btn" class="btn">Guess</button>
       </form>
       <button class="reset">Reset</button>
@@ -23,7 +23,7 @@
       <p>Letters you have guessed:</p>
       <div class="guessedLetters"></div>
       <div class="feedback"></div>
-      <div class="mistakesLeft">Mistakes left: 8</div>
+      <div class="guessesRemaining">Attempts Remaining Until Termination ☠️: 8</div>
     </div>
     <!-- <div class="flex-container">
       <div class="flex-item-1">flex item 1</div>
@@ -31,7 +31,7 @@
       <div class="flex-item-3">flex item 3</div>
     </div> -->
     <div class="hangman-body">
-      <section class="body">
+      <section class="body-part">
         <div id="head"></div>
         <div id="neck"></div>
         <div id="torso"></div>
@@ -47,5 +47,6 @@
     <script type="text/javascript" src="./js/common-words.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/file-2.js"></script>
+  </div>
   </body>
 </html>

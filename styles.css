@@ -2,7 +2,7 @@
 
 
 
-<script>
+    <script>
       function showInput (){
         const userInput = document.querySelector('input#guess').value
         document.querySelector('p#show').innerText = userInput

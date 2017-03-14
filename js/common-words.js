@@ -1,13 +1,12 @@
 var commonWords = [
-  "the","of","and","a","to","in","is","you","that","it","he",
-  "was","for","on","are","as","with","his","they","I","at","be",
-  "this","have","from","or","one","had","by","word","but","not",
-  "what","all","were","we","when","your","can","said","there",
-  "use","an","each","which","she","do","how","their","if","will",
-  "up","other","about","out","many","then","them","these","so",
-  "some","her","would","make","like","him","into","time","has",
-  "look","two","more","write","go","see","number","no","way",
-  "could","people","my","than","first","water","been","call",
+  "them","cough","hand","actor","torque","finish","fish","youth","that","bait","help",
+  "wash","fort","only","garish","waste","with","history","they","island","batch","bet",
+  "thank","have","from","order","bone","had","butterfly","word","bunt","notch",
+  "what","ball","were","wet","when","your","scan","said","there",
+  "abuse","nanny","each","which","she","doe","how","their","cliff","will",
+  "puppy","other","about","out","many","then","them","these","son",
+  "some","hurt","would","make","like","him","into","time","hash",
+  "look","two","more","write","gonzo","see","number","note","way",
+  "could","people","max","than","first","water","been","call",
   "who","oil","its","now","find","long","down","day","did","get",
-  "come","made","may","part"
-];
+  "come","made","may","part"]

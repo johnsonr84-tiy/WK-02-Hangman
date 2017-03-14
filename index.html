@@ -8,41 +8,45 @@
   <body>
     <div class="main_cont">
       <div class="sub_cont">
-      <h1>The Uterly Amazing Hangman Game!</h1>
+      <h1>The Utterly Amazing Hangman Game!</h1>
+      <div id="alphabet">
+        <p>stuff</p>
       </div>
-      <h3 class="message">Type a letter in the box below!👇🏼</h3>
-
+      <h3 class="message">Choose A Letter!</h3>
+      <div class="hangman-body">
+        <section class="body-part">
+          <div id="head"></div>
+          <div id="neck"></div>
+          <div id="torso"></div>
+          <div id="arm1"></div>
+          <div id="arm2"></div>
+          <div id="leg1"></div>
+          <div id="leg2"></div>
+          <div id="hang"></div>
+        </section>
+      </div>
     <div class="feedback">
       <form class="guess">
         <input type="text" name="guess" placeholder="_" maxlength="1">
         <button id="btn" class="btn">Guess</button>
+        <button class="reset">Reset</button>
       </form>
-      <button class="reset">Reset</button>
+      <!-- <button class="reset">Reset</button> -->
       <div class="response"></div>
       <div class="tracker"></div>
       <p>Letters you have guessed:</p>
       <div class="guessedLetters"></div>
       <div class="feedback"></div>
-      <div class="guessesRemaining">Attempts Remaining Until Termination ☠️: 8</div>
     </div>
-    <!-- <div class="flex-container">
-      <div class="flex-item-1">flex item 1</div>
-      <div class="flex-item-2">flex item 2</div>
-      <div class="flex-item-3">flex item 3</div>
-    </div> -->
-    <div class="hangman-body">
-      <section class="body-part">
-        <div id="head"></div>
-        <div id="neck"></div>
-        <div id="torso"></div>
-        <div id="arm1"></div>
-        <div id="arm2"></div>
-        <div id="leg1"></div>
-        <div id="leg2"></div>
-        <div id="hang">
-          <img src="./images/so-close.jpg" alt="Image of baby saying 'so close'"/>
-        </div>
-      </section>
+    <div class="alphabet-selector">
+        <button type="button" id="pick-letter">Select a letter:</button>
+          <input id="letter-input" type="text" max-length="1">
+            <div class="letter-picker"></div>
+            <!-- <div class="guessesRemaining">Turns Remaining: 10</div> -->
+            <div id="game-board"><p class ="guessesRemaining">Turns Remaining</p>
+      </div>
+    </div>
+      <!-- </section> -->
       </div>
     <script type="text/javascript" src="./js/common-words.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>

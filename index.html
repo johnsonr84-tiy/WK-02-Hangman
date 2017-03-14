@@ -8,11 +8,25 @@
   <body>
     <div class="main_cont">
       <div class="sub_cont">
-      <h1>The Utterly Amazing Hangman Game!</h1>
-      <div id="alphabet">
-        <p>stuff</p>
+        <h1>The Utterly Amazing Hangman Game!</h1>
+        <div id="alphabet">
+        <h3 class="message">Choose A Letter!</h3>
       </div>
-      <h3 class="message">Choose A Letter!</h3>
+
+      <div class="feedback_cont">
+        <form class="guess">
+          <input type="text" name="guess" placeholder="_" maxlength="1">
+          <button id="btn" class="btn">Guess</button>
+          <button class="reset">Reset</button>
+        </form>
+        <div class="response"></div>
+        <div class="tracker">_ _ _ _ _</div>
+        <p>Letters you have guessed:</p>
+        <div class="guessedLetters"></div>
+        <div class="feedback"></div>
+        <div class="mistakesLeft">Turns Remaining: 10</div>
+      </div>
+
       <div class="hangman-body">
         <section class="body-part">
           <div id="head"></div>
@@ -22,35 +36,21 @@
           <div id="arm2"></div>
           <div id="leg1"></div>
           <div id="leg2"></div>
-          <div id="hang"></div>
+          <div id="hang">
         </section>
       </div>
-    <div class="feedback">
-      <form class="guess">
-        <input type="text" name="guess" placeholder="_" maxlength="1">
-        <button id="btn" class="btn">Guess</button>
-        <button class="reset">Reset</button>
-      </form>
-      <!-- <button class="reset">Reset</button> -->
-      <div class="response"></div>
-      <div class="tracker"></div>
-      <p>Letters you have guessed:</p>
-      <div class="guessedLetters"></div>
-      <div class="feedback"></div>
-    </div>
-    <div class="alphabet-selector">
+
+      <!-- <div class="alphabet-selector">
         <button type="button" id="pick-letter">Select a letter:</button>
           <input id="letter-input" type="text" max-length="1">
             <div class="letter-picker"></div>
-            <!-- <div class="guessesRemaining">Turns Remaining: 10</div> -->
-            <div id="game-board"><p class ="guessesRemaining">Turns Remaining</p>
+
+            <div id="game-board"><p class ="guessesRemaining">Turns Remaining</p> -->
       </div>
     </div>
-      <!-- </section> -->
-      </div>
     <script type="text/javascript" src="./js/common-words.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/file-2.js"></script>
-  </div>
+  <!-- </div> -->
   </body>
 </html>

@@ -1,3 +1,5 @@
+"use strict"
+
 var commonWords = [
   "them","cough","hand","actor","torque","finish","fish","youth","that","bait","help",
   "wash","fort","only","garish","waste","with","history","they","island","batch","bet",
@@ -9,4 +11,4 @@ var commonWords = [
   "look","two","more","write","gonzo","see","number","note","way",
   "could","people","max","than","first","water","been","call",
   "who","oil","its","now","find","long","down","day","did","get",
-  "come","made","may","part"]
+  "come","made","may","part"];

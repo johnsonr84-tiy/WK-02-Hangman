@@ -25,7 +25,7 @@ body {
   text-align: center;
   /*background-color: darkblue;*/
   color: white;
-  top: 300px;
+  top: 320px;
   /*font-family: ;*/
   height: 90px;
   width: 600px;
@@ -46,7 +46,7 @@ body {
   position: relative;
   font-size: 20px;
   color: white;
-  top: 80px;
+  top: 100px;
 }
 
 input {
@@ -56,7 +56,7 @@ input {
   width: 40px;
   text-align: center;
   left: 100px;
-  bottom: 20px;
+  top: 60px;
 }
 
 
@@ -70,7 +70,7 @@ input {
   padding: 5px 10px 5px 10px;
   text-decoration: none;
   left: -50px;
-  bottom: 20px;
+  top: 60px;
 }
 
 .btn:hover {
@@ -90,7 +90,7 @@ input {
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     right: -20px;
-    bottom: 20px;
+    top: 60px;
 }
 
 .reset:hover {
@@ -136,16 +136,18 @@ input {
 
 
 .tracker {
+  position: relative;
   font-size: 25px;
   color: black;
   margin: 10px 0;
+  top: 100px;
 }
 
 .guessedLetters {
   position: relative;
   font-size: 25px;
   margin: 0px 0;
-  top: 100px;
+  top: 110px;
 }
 
 .feedback {
@@ -154,12 +156,12 @@ input {
   font-weight: bolder;
 }
 
-.guessesRemaining p {
+p {
   position: relative;
   font-size: 12px;
   margin: 0px 0;
   color: black;
-  top: 200px;
+  top: 150px;
 }
 
 

@@ -15,7 +15,7 @@ let gameStatus = {
     arm2: "not-visible",
     leg1: "not-visible",
     leg2: "not-visible",
-    hang: "visible",
+    hang: "not-visible",
     btn: "not-visible",
 }
 

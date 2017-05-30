@@ -7,6 +7,11 @@ body {
   background-image: url("images/chalkboard1.svg");
   background-repeat: no-repeat;
   background-position: center top;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .main_cont {
@@ -14,42 +19,27 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-content: center;
+  padding-top: 10%;
 }
 
-.sub_cont {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;;
-  align-items: center;
-  text-align: center;
-  /*background-color: darkblue;*/
-  color: black;
-  top: 320px;
-  /*font-family: ;*/
-  height: 90px;
-  width: 600px;
-  /*padding: 10px;*/
-  margin: 90px;
-  /*border-radius: 10px;*/
-}
-
-.feedback {
+/*.feedback {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: -360px;
+  /*top: -360px;*/
 }
 
 .feedback p {
   position: relative;
   font-size: 20px;
   color: black;
-  top: 100px;
+  top: 150px;
+  padding: 2rem;
 }
 
-input {
+/*input {
   position: relative;
   height: 35px;
   font-size: 40px;
@@ -57,9 +47,9 @@ input {
   text-align: center;
   left: 100px;
   top: 60px;
-}
+}*/
 
-
+/*
 .btn {
   position: relative;
   background: grey;
@@ -98,41 +88,6 @@ input {
   text-decoration: none;
 }
 
-#alphabet {
-  position: relative;
-  width: 500px;
-  height: auto auto;
-  color: black;
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;;
-  align-items: center;
-  text-align: center;
-  top: 5px;
-}
-
-#game-board {
-  position: relative;
-  background-color: none;
-  border: 1px solid white;
-  height: 50px;
-  width: 250px;
-  margin:10%;
-  padding: 0%;
-  font-size: 40px;
-  color: black;
-  bottom: 350px;
-  align-items: center;
-  right: 25px;
-}
-
-/*#game-board p {
-  position: relative;
-  font-size: 12px;
-  color: black;
-  bottom: 200px
-}*/
 
 
 .tracker {
@@ -148,21 +103,21 @@ input {
   font-size: 25px;
   margin: 0px 0;
   top: 110px;
-}
+}*/
 
-.feedback {
+/*.feedback {
   font-size: 30px;
   margin: 10px 0;
   font-weight: bolder;
-}
+}*/
 
-p {
+/*p {
   position: relative;
   font-size: 12px;
   margin: 0px 0;
   color: black;
   top: 150px;
-}
+}*/
 
 
 /*.body {

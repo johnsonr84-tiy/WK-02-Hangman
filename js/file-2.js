@@ -1,4 +1,3 @@
-
 function show(gameStatus) {
   showTracker(gameStatus);
   showFeedback(gameStatus);
@@ -16,52 +15,53 @@ function show(gameStatus) {
 }
 
 function showTracker(gameStatus) {
-  document.querySelector (".tracker").innerHTML = gameStatus.tracker.join(" ");
+  document.querySelector(".tracker").innerHTML = gameStatus.tracker.join(" ");
 }
 
 function showFeedback(gameStatus) {
-  document.querySelector (".feedback").innerHTML = gameStatus.feedback;
+  document.querySelector(".feedback").innerHTML = gameStatus.feedback;
 }
 
 function showGuessTracker(gameStatus) {
-    document.querySelector (".guessTracker").innerHTML = gameStatus.guessedLetters;
+  document.querySelector(".guessedLetters").innerHTML =
+    gameStatus.guessedLetters;
 }
 
 function showMistakes(gameStatus) {
-  document.querySelector (".mistakes").innerHTML = gameStatus.mistakeMessage;
+  document.querySelector(".mistakes").innerHTML = gameStatus.mistakeMessage;
 }
 
 function showHead(gameStatus) {
-  document.getElementById ("head").style.visibility = gameStatus.head;
+  document.getElementById("head").style.visibility = gameStatus.head;
 }
 
 function showNeck(gameStatus) {
-  document.getElementById ("neck").style.visibility = gameStatus.neck;
+  document.getElementById("neck").style.visibility = gameStatus.neck;
 }
 
 function showTorso(gameStatus) {
-  document.getElementById ("torso").style.visibility = gameStatus.torso;
+  document.getElementById("torso").style.visibility = gameStatus.torso;
 }
 function showArm1(gameStatus) {
-  document.getElementById ("arm1").style.visibility = gameStatus.arm1;
+  document.getElementById("arm1").style.visibility = gameStatus.arm1;
 }
 
 function showArm2(gameStatus) {
-  document.getElementById ("arm2").style.visibility = gameStatus.arm2;
+  document.getElementById("arm2").style.visibility = gameStatus.arm2;
 }
 
 function showLeg1(gameStatus) {
-  document.getElementById ("leg1").style.visibility = gameStatus.leg1;
+  document.getElementById("leg1").style.visibility = gameStatus.leg1;
 }
 
 function showLeg2(gameStatus) {
-  document.getElementById ("leg2").style.visibility = gameStatus.leg2;
+  document.getElementById("leg2").style.visibility = gameStatus.leg2;
 }
 
 function showHang(gameStatus) {
-  document.getElementById ("hang").style.visibility = gameStatus.hang;
+  document.getElementById("hang").style.visibility = gameStatus.hang;
 }
 
 function showHideButton(gameStatus) {
-  document.getElementById ("btn").style.visibility = gameStatus.btn;
+  document.getElementById("btn").style.visibility = gameStatus.btn;
 }

@@ -1,0 +1,22 @@
+{
+  "name": "wk-02-hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsonr84-tiy/WK-02-Hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnsonr84-tiy/WK-02-Hangman/issues"
+  },
+  "homepage": "https://github.com/johnsonr84-tiy/WK-02-Hangman#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
